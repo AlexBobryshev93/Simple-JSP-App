@@ -7,7 +7,7 @@
 <title>My JSP Demo</title>
 </head>
 <body>
-	<h2>Hello, <%= request.getParameter("username") %>></h2>
+	<h2>Hello, <%= request.getParameter("username") %> :)))</h2>
 	<span>Name: <%= request.getParameter("username") %></span></br>
 	<span>Age: <%= request.getParameter("age") %></span></br>
 	<span>Gender: <%= request.getParameter("gender") %></span></br>

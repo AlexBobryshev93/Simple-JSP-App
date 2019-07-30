@@ -10,9 +10,9 @@
 		<h2>Fill in the blank please!</h2>
 		<form action="user.jsp" method="POST">
 			<span>Name:</span><input type="text" name="username"></br>
-			<span>Age:</span><input type="number" min=0 name="age"></br>
-			<span>Gender:</span><input type="radio" name="gender" value="male" checked="true"><span>Male</span>
-			<input type="radio" name="gender" value="female"><span>Female</span></br>
+			<span>Age:</span><input type="number" min=18 name="age"></br>
+			<span>Gender:</span><input type="radio" name="gender" value="Male" checked="true"><span>Male</span>
+			<input type="radio" name="gender" value="Female"><span>Female</span></br>
 			<button>Submit</button>
 		</form>
 	</body>
