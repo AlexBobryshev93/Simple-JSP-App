@@ -11,5 +11,6 @@
 	<span>Name: <%= request.getParameter("username") %></span></br>
 	<span>Age: <%= request.getParameter("age") %></span></br>
 	<span>Gender: <%= request.getParameter("gender") %></span></br>
+	<span>Country: <%= request.getParameter("country") %></span></br>
 </body>
 </html>

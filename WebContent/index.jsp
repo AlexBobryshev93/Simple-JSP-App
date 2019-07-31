@@ -13,6 +13,15 @@
 			<span>Age:</span><input type="number" min=18 name="age"></br>
 			<span>Gender:</span><input type="radio" name="gender" value="Male" checked="true"><span>Male</span>
 			<input type="radio" name="gender" value="Female"><span>Female</span></br>
+			<span>Country:</span>
+			<select name="country">
+				<option>Ukraine</option>
+				<option>Russia</option>
+				<option>USA</option>
+				<option>China</option>
+				<option>Germany</option>
+				<option>GB</option>
+			</select>
 			<button>Submit</button>
 		</form>
 	</body>
